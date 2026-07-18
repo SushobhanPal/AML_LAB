@@ -1,0 +1,29 @@
+# Virtual Environments
+.aml/
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Serialized ML Models & Weights
+*.pkl
+*.joblib
+*.h5
+*.pb
+*.pt
+*.pth
+models/
+checkpoints/
+
+# Python Cache & Artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
